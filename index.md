@@ -1,3 +1,7 @@
+---
+layout: home
+---
+
 # Matteo Corbetta, Ph.D. [About](#about) · [Publications](#publications)
 
 ## About
