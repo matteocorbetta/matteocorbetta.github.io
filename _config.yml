@@ -1,2 +1,4 @@
 theme: minima
 title: Matteo Corbetta, Ph.D.
+minima:
+  skin: dark
