@@ -6,6 +6,19 @@ SEMANTIC_SCHOLAR_API = "https://api.semanticscholar.org/graph/v1/paper/"
 
 FIELDS = "title,authors,year,venue,url,externalIds"
 
+START = "<!-- PUBLICATIONS_START -->"
+END = "<!-- PUBLICATIONS_END -->"
+
+
+def update_publications_section(new_md):
+    text = Path("index.md").read_text() 
+    if START not in text or END not in text: 
+        raise RuntimeError("Markers not found in index.md")
+    before = text.split(START)[0]
+    after = text.split(END)[1]
+    updated = before + START + "\n" + new_md + "\n" + END + after
+    Path("index.md").write_text(updated)
+
 def fetch_from_semantic_scholar(paper_id):
     url = f"{SEMANTIC_SCHOLAR_API}{paper_id}?fields={FIELDS}"
     r = requests.get(url, timeout=10)
@@ -58,7 +71,8 @@ def main():
         entries.append(f"- **{pid}** — metadata not found\n")
 
     md = "# Publications\n\n" + "\n".join(entries)
-    Path("index.md").write_text(md)
+    # Path("index.md").write_text(md)
+    update_publications_section(md)
 
 if __name__ == "__main__":
     main()
