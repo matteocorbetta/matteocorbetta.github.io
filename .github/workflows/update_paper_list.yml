@@ -1,9 +1,13 @@
 name: Update Publications
 
 on:
+  workflow_dispatch:      # allow manual runs
   schedule:
     - cron: "0 3 * * *"   # every night at 3 AM UTC
-  workflow_dispatch:      # allow manual runs
+  push:
+    paths:
+      - "paper_ids.txt"
+  
 
 jobs:
   build:
