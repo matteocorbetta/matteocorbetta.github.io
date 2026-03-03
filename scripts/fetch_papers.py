@@ -70,7 +70,7 @@ def main():
 
         entries.append(f"- **{pid}** — metadata not found\n")
 
-    md = "# Publications\n\n" + "\n".join(entries)
+    md = "## Publications\n\n" + "\n".join(entries)
     # Path("index.md").write_text(md)
     update_publications_section(md)
 
