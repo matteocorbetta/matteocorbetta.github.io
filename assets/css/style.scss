@@ -1,0 +1,21 @@
+---
+---
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  background: #f7f5f0;
+  color: #1a1916;
+  line-height: 1.75;
+}
+
+h1 { font-size: 1.9rem; font-weight: normal; margin-bottom: 0.3rem; }
+h2 { font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; color: #7a7670; border-bottom: 1px solid #d6d2ca; padding-bottom: 0.4rem; margin-top: 2.5rem; }
+
+a { color: #2a3d8f; }
+ul { padding-left: 1.2rem; }
+li { margin-bottom: 0.4rem; }
+
+.site-header, .site-footer { display: none; }
