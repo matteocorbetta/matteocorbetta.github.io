@@ -1,6 +1,15 @@
 ---
 layout: default
 ---
+<style>
+  a {
+    color: #4DB6AC; /*teal color */
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: unerline;
+  }
+</style>
 
 # Matteo Corbetta, Ph.D.
 
@@ -13,9 +22,12 @@ Applied Scientist specializing in data science and probabilistic modeling, ML, a
 - Core contributor to open-source research software, PI of funded research proposals at NASA, and recipient of best paper awards.
 
 ## Sample Work
-[Battery Hyrbid PIML](https://www.nature.com/articles/s41598-023-33018-0) \
 
-[Presentation: PIML for Prognostics and Health Management](https://ntrs.nasa.gov/api/citations/20210013485/downloads/Towards_The_True_Hybrid_ENHANCE_2021.pdf) \
+[ProgPy](https://github.com/nasa/progpy)
+
+[Battery Hybrid PIML](https://www.nature.com/articles/s41598-023-33018-0)
+
+[Presentation: PIML for Prognostics and Health Management](https://ntrs.nasa.gov/api/citations/20210013485/downloads/Towards_The_True_Hybrid_ENHANCE_2021.pdf)
 
 [Spectral Mass Gauging](https://ntrs.nasa.gov/api/citations/20220013273/downloads/SMG_final.pdf)
 
@@ -32,7 +44,7 @@ Applied Scientist specializing in data science and probabilistic modeling, ML, a
 
 **Adaptive prognosis of lithium-ion batteries based on the combination of particle filters and radial basis function neural networks** (2017)  
   C. Sbarufatti, Matteo Corbetta, M. Giglio, F. Cadini  
-  [](https://www.semanticscholar.org/paper/8a09d81d2ac61e30c25da97d1b2b8deb6774e076)
+  [Journal of Power Sources](https://www.semanticscholar.org/paper/8a09d81d2ac61e30c25da97d1b2b8deb6774e076)
 
 **Application of sparse identification of nonlinear dynamics for physics-informed learning** (2020)  
   Matteo Corbetta  
@@ -88,10 +100,10 @@ Applied Scientist specializing in data science and probabilistic modeling, ML, a
 
 **Enhancing Fault Isolation for Health Monitoring of Electric Aircraft Propulsion by Embedding Failure Mode and Effect Analysis into Bayesian Networks** (2020)  
   Chetan S. Kulkarni, Matteo Corbetta, E. Robinson  
-  [](https://www.semanticscholar.org/paper/b271ef7f939e7bd14a01861b63fee6d7fe64e408)
+  [PHM Society Annual Conference](https://www.semanticscholar.org/paper/b271ef7f939e7bd14a01861b63fee6d7fe64e408)
 
 **On the Structural Health Monitoring of Operational Wind Turbine Blades** (2017)  
   K. Chandrasekhar, N. Stevanovic, Matteo Corbetta, N. Dervilis, K. Worden  
-  [](https://www.semanticscholar.org/paper/f5393ce29d86bf7cb3043669682ac76501b298d5)
+  [EWSHM](https://www.semanticscholar.org/paper/f5393ce29d86bf7cb3043669682ac76501b298d5)
 
 <!-- PUBLICATIONS_END -->
