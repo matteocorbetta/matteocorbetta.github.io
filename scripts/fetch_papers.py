@@ -48,7 +48,7 @@ def format_entry(data):
     url = data.get("url") or data.get("URL", "")
     venue = data.get("venue") or data.get("container-title", [""])[0]
 
-    return f"- **{title}** ({year})  \n  {authors_str}  \n  [{venue}]({url})\n"
+    return f"**{title}** ({year})  \n  {authors_str}  \n  [{venue}]({url})\n"
 
 def main():
     ids = Path("paper_ids.txt").read_text().strip().splitlines()
@@ -70,7 +70,7 @@ def main():
 
         entries.append(f"- **{pid}** — metadata not found\n")
 
-    md = "## Publications\n\n" + "\n".join(entries)
+    md = "## Selected Publications\n\n" + "\n".join(entries)
     # Path("index.md").write_text(md)
     update_publications_section(md)
 
