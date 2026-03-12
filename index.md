@@ -12,7 +12,8 @@ layout: default
 - Hands-on ML technical lead and individual contributor in research labs, large enterprises, and early-stage startups
 - Core contributor to open-source research software, PI of funded research proposals at NASA, and recipient of multiple awards
 
-**Tech stack**: Python: PyTorch, Scikit-Learn, JAX, TensorFlow, Ray, Pandas, LangChain | SQL | C++ | Docker | AWS, GCP, Kubernetes.
+**Tech stack**: \
+Python: PyTorch, Scikit-Learn, JAX, TensorFlow, Ray, Pandas, LangChain | SQL | C++ | Docker | AWS, GCP, Kubernetes.
 
 ## Selected Accomplishments
 
@@ -34,11 +35,13 @@ layout: default
 - “Physics-aware quantum neural network modeling of Earth science phenomena”, NASA Ames AIST 2024
 - “Acoustic Data-Based 0-gravity Boiling Characterization”, NASA Ames CIF 2023
 - “Physics-Informed Neural Networks for Next-Gen Electric Aircraft”, NASA Ames CIF 2022
+
 #### Conferences and Technical Societies
 - Panelist at the SuperComputing Conf. 2022: "Physics-Informed Machine Learning meets High Performance Computing"
 - Member of the Editorial Board for the Prognostic and Health Management Society 2017 - 2024
 - Presented technical work at more than a dozen conferences and workshops.
 - Reviewer for a number of scientific journals and conferences for more than a decade
+
 #### Invention Disclosures and Patents
 - Coolant Pump and Valve Prognostic Strategy (Ford Motor Company), 2024 (invention disclosure submitted)
 - Bayesian network for fault isolation of UAV electrical powertrain (KBR & NASA), 2022 (patent pending)
