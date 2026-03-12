@@ -2,8 +2,6 @@
 layout: default
 ---
 
-# Matteo Corbetta, Ph.D.
-
 ## About
 
 Applied Scientist specializing in data science and probabilistic modeling, ML, and AI for sensor-driven systems across automotive, aerospace, and energy domains. 
