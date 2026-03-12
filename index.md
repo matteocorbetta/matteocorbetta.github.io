@@ -6,11 +6,13 @@ layout: default
 
 ## About
 
-Applied Scientist specializing in data science and probabilistic modeling, ML, and AI for sensor-driven systems across automotive, aerospace, and energy domains. 
-- Expertise in time-series, anomaly detection, system dynamics and state estimation, diagnostics, and forecasting for uncertainty-aware decision making. 
-- Experience across the technology maturity spectrum, from low-TRL research to cloud-deployed models. 
-- Hands-on technical lead and IC in research labs, large enterprises, and early-stage startups. 
-- Core contributor to open-source research software, PI of funded research proposals at NASA, and recipient of best paper awards.
+**Applied ML Scientist** with 10+ years of experience in data science and probabilistic modeling, ML, and AI for sensor-driven systems across industrial and safety-critical domains. 
+- Expertise in time-series anomaly detection, state estimation & sensor fusion, and forecasting for uncertainty-aware decision making
+- Experience building models from low-TRL (fundamental research) to deploying C++ into production-grade environments
+- Hands-on ML technical lead and individual contributor in research labs, large enterprises, and early-stage startups
+- Core contributor to open-source research software, PI of funded research proposals at NASA, and recipient of multiple awards
+
+**Tech stack**: Python: PyTorch, Scikit-Learn, JAX, TensorFlow, Ray, Pandas, LangChain | SQL | C++ | Docker | AWS, GCP, Kubernetes.
 
 ## Sample Work
 
