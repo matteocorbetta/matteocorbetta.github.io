@@ -4,6 +4,10 @@ layout: default
 
 # Matteo Corbetta, Ph.D.
 
+[GitHub](https://github.com/matteocorbetta) \
+[LinkedIn](https://www.linkedin.com/in/mcorbetta) \
+[Semantic Scholar](https://www.semanticscholar.org/search?q=Matteo%20corbetta&sort=relevance) \ 
+
 ## About
 
 **Applied ML Scientist** with 10+ years of experience in data science and probabilistic modeling, ML, and AI for sensor-driven systems across industrial and safety-critical domains. 
