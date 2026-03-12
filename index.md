@@ -14,6 +14,37 @@ layout: default
 
 **Tech stack**: Python: PyTorch, Scikit-Learn, JAX, TensorFlow, Ray, Pandas, LangChain | SQL | C++ | Docker | AWS, GCP, Kubernetes.
 
+## Selected Accomplishments
+
+### Business Outcomes
+- Increased reach of automotive wheel alignment monitoring system to more than 250,000 additional potential customers
+- Led a team of 3 building a multi-agent workflow that enabled the onboarding of a new customer for GenAI, Series A startup
+- Designed, implemented and deployed an AI-based root cause analysis of cost spikes for Cloud FinOps customer
+
+### Awards and Recognitions
+- Core algorithms contributor to NASA’s 2024 Software of the Year: ProgPy, 2024
+- OneKBR Award for outstanding work in the NASA’s Diagnostics and Prognostics Task, 2023
+- Outstanding Reviewer for the Prognostics and Health Management Society, 2018
+- Best paper award at European Prognostics and Health Management Conference, Bilbao, Spain 2016 (link)
+- Best paper (3rd) at European Safety and Reliability Conference, Amsterdam, The Netherlands, 2013
+
+### Scientific and Technical Contributions
+
+#### Awarded Project Proposals (PI or Co-PI)
+- “Physics-aware quantum neural network modeling of Earth science phenomena”, NASA Ames AIST 2024
+- “Acoustic Data-Based 0-gravity Boiling Characterization”, NASA Ames CIF 2023
+- “Physics-Informed Neural Networks for Next-Gen Electric Aircraft”, NASA Ames CIF 2022
+#### Conferences and Technical Societies
+- Panelist at the SuperComputing Conf. 2022: "Physics-Informed Machine Learning meets High Performance Computing"
+- Member of the Editorial Board for the Prognostic and Health Management Society 2017 - 2024
+- Presented technical work at more than a dozen conferences and workshops.
+- Reviewer for a number of scientific journals and conferences for more than a decade
+#### Invention Disclosures and Patents
+- Coolant Pump and Valve Prognostic Strategy (Ford Motor Company), 2024 (invention disclosure submitted)
+- Bayesian network for fault isolation of UAV electrical powertrain (KBR & NASA), 2022 (patent pending)
+- Vibration-based monitoring of wind turbine direct-drive generators (Siemens Gamesa), 2017 (invention disclosure)
+
+
 ## Sample Work
 
 [ProgPy](https://github.com/nasa/progpy)
