@@ -85,10 +85,6 @@ Python: PyTorch, Scikit-Learn, JAX, TensorFlow, Ray, Pandas, LangChain | SQL | C
   Matteo Corbetta, K. Jarvis, S. Schuet  
   [AIAA AVIATION 2023 Forum](https://www.semanticscholar.org/paper/6489e5efc946d89974e92de08ebf080ea22e73b8)
 
-**Prognosis of Li-ion Batteries Under Large Load Variations Using Hybrid Physics-Informed Neural Networks** (2023)  
-  Kajetan Fricke, R. Nascimento, Matteo Corbetta, Chetan S. Kulkarni, Felipe A. C. Viana  
-  [Annual Conference of the PHM Society](https://www.semanticscholar.org/paper/e2cd395879fc223d59d81ae9dc1ad51440fabedb)
-
 **Systems Health Monitoring: Integrating FMEA into Bayesian Networks** (2021)  
   Chetan S. Kulkarni, Matteo Corbetta, E. Robinson  
   [IEEE Aerospace Conference](https://www.semanticscholar.org/paper/bf956074b76b55a50bbdf01999604df2f3388332)
