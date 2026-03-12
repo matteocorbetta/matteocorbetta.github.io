@@ -18,4 +18,23 @@ a { color: #2a3d8f; }
 ul { padding-left: 1.2rem; }
 li { margin-bottom: 0.4rem; }
 
+/* Smoother link transitions */
+a { transition: color 0.15s; }
+a:hover { color: #1a2d6f; }
+
+/* Publication-style paragraphs — adds breathing room between blocks */
+p { margin-bottom: 1.1rem; }
+
+/* Tighten the h1 subtitle if you have one */
+h1 + p { color: #7a7670; font-style: italic; margin-top: 0.2rem; }
+
+/* Horizontal rule styling */
+hr { border: none; border-top: 1px solid #d6d2ca; margin: 2rem 0; }
+
+/* Slightly muted blockquotes if you ever use them */
+blockquote { border-left: 3px solid #d6d2ca; padding-left: 1rem; color: #7a7670; font-style: italic; }
+
+/* Code spans */
+code { font-size: 0.85rem; background: #ede9e0; padding: 0.1em 0.35em; border-radius: 3px; }
+
 .site-header, .site-footer { display: none; }
