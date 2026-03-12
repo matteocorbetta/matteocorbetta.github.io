@@ -1,15 +1,6 @@
 ---
 layout: default
 ---
-<style>
-  a {
-    color: #4DB6AC; /*teal color */
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: unerline;
-  }
-</style>
 
 # Matteo Corbetta, Ph.D.
 
