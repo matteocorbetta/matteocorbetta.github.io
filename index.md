@@ -6,7 +6,7 @@ layout: default
 
 [GitHub](https://github.com/matteocorbetta) \
 [LinkedIn](https://www.linkedin.com/in/mcorbetta) \
-[Semantic Scholar](https://www.semanticscholar.org/search?q=Matteo%20corbetta&sort=relevance) \ 
+[Semantic Scholar](https://www.semanticscholar.org/search?q=Matteo%20corbetta&sort=relevance) 
 
 ## About
 
