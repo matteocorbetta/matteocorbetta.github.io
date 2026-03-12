@@ -35,7 +35,7 @@ Applied Scientist specializing in data science and probabilistic modeling, ML, a
 
 **Adaptive prognosis of lithium-ion batteries based on the combination of particle filters and radial basis function neural networks** (2017)  
   C. Sbarufatti, Matteo Corbetta, M. Giglio, F. Cadini  
-  [Journal of Power Sources](https://www.semanticscholar.org/paper/8a09d81d2ac61e30c25da97d1b2b8deb6774e076)
+  [](https://www.semanticscholar.org/paper/8a09d81d2ac61e30c25da97d1b2b8deb6774e076)
 
 **Application of sparse identification of nonlinear dynamics for physics-informed learning** (2020)  
   Matteo Corbetta  
@@ -91,10 +91,10 @@ Applied Scientist specializing in data science and probabilistic modeling, ML, a
 
 **Enhancing Fault Isolation for Health Monitoring of Electric Aircraft Propulsion by Embedding Failure Mode and Effect Analysis into Bayesian Networks** (2020)  
   Chetan S. Kulkarni, Matteo Corbetta, E. Robinson  
-  [PHM Society Annual Conference](https://www.semanticscholar.org/paper/b271ef7f939e7bd14a01861b63fee6d7fe64e408)
+  [](https://www.semanticscholar.org/paper/b271ef7f939e7bd14a01861b63fee6d7fe64e408)
 
 **On the Structural Health Monitoring of Operational Wind Turbine Blades** (2017)  
   K. Chandrasekhar, N. Stevanovic, Matteo Corbetta, N. Dervilis, K. Worden  
-  [EWSHM](https://www.semanticscholar.org/paper/f5393ce29d86bf7cb3043669682ac76501b298d5)
+  [](https://www.semanticscholar.org/paper/f5393ce29d86bf7cb3043669682ac76501b298d5)
 
 <!-- PUBLICATIONS_END -->
