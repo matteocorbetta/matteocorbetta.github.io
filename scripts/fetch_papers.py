@@ -11,13 +11,13 @@ END = "<!-- PUBLICATIONS_END -->"
 
 
 def update_publications_section(new_md):
-    text = Path("index.md").read_text() 
+    text = Path("index.html").read_text()
     if START not in text or END not in text: 
-        raise RuntimeError("Markers not found in index.md")
+        raise RuntimeError("Markers not found in index.html")
     before = text.split(START)[0]
     after = text.split(END)[1]
     updated = before + START + "\n" + new_md + "\n" + END + after
-    Path("index.md").write_text(updated)
+    Path("index.html").write_text(updated)
 
 def fetch_from_semantic_scholar(paper_id):
     url = f"{SEMANTIC_SCHOLAR_API}{paper_id}?fields={FIELDS}"
