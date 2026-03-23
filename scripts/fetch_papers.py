@@ -1,5 +1,5 @@
+import html
 import requests
-import json
 from pathlib import Path
 
 SEMANTIC_SCHOLAR_API = "https://api.semanticscholar.org/graph/v1/paper/"
@@ -48,7 +48,21 @@ def format_entry(data):
     url = data.get("url") or data.get("URL", "")
     venue = data.get("venue") or data.get("container-title", [""])[0]
 
-    return f"**{title}** ({year})  \n  {authors_str}  \n  [{venue}]({url})\n"
+    title_html = html.escape(title)
+    year_html = html.escape(str(year)) if year is not None else ""
+    authors_html = html.escape(authors_str)
+    venue_html = html.escape(venue)
+    url_html = html.escape(url, quote=True)
+
+    year_suffix = f" <span>({year_html})</span>" if year_html else ""
+
+    return (
+        '<article class="publication-entry">\n'
+        f"  <h4>{title_html}{year_suffix}</h4>\n"
+        f"  <p>{authors_html}</p>\n"
+        f'  <a href="{url_html}">{venue_html}</a>\n'
+        "</article>\n"
+    )
 
 def main():
     ids = Path("paper_ids.txt").read_text().strip().splitlines()
@@ -68,11 +82,16 @@ def main():
                 entries.append(format_entry(cr))
                 continue
 
-        entries.append(f"- **{pid}** — metadata not found\n")
+        pid_html = html.escape(pid)
+        entries.append(
+            '<article class="publication-entry publication-entry-missing">\n'
+            f"  <h4>{pid_html}</h4>\n"
+            "  <p>Metadata not found.</p>\n"
+            "</article>\n"
+        )
 
-    md = "## Selected Publications\n\n" + "\n".join(entries)
-    # Path("index.md").write_text(md)
-    update_publications_section(md)
+    html_block = "\n".join(entries)
+    update_publications_section(html_block)
 
 if __name__ == "__main__":
     main()

@@ -96,8 +96,9 @@ title: Matteo Corbetta
   <section class="section">
     <div class="section-heading">
       <p class="section-kicker">Selected Work</p>
-      <h2>Sample Work</h2>
+      <h2>Selected Work</h2>
     </div>
+    <h3 class="subsection-title">Sample Work</h3>
     <div class="work-grid">
       <a class="work-card" href="https://github.com/nasa/progpy">
         <span class="work-type">Open source</span>
@@ -120,67 +121,87 @@ title: Matteo Corbetta
         <span>Applied modeling work on fluid state estimation and sensing in aerospace contexts.</span>
       </a>
     </div>
-  </section>
-
-  <section class="section section-publications">
-    <div class="section-heading">
-      <p class="section-kicker">Selected Work</p>
-      <h2>Selected Publications</h2>
-    </div>
-    <div class="publication-list" markdown="1">
+    <h3 class="subsection-title subsection-title-publications">Selected Publications</h3>
+    <div class="publication-list">
 <!-- PUBLICATIONS_START -->
 
-**ProgPy: Python Packages for Prognostics and Health Management of Engineering Systems** (2023)  
-  C. Teubert, K. Jarvis, Matteo Corbetta, Chetan S. Kulkarni, M. Daigle  
-  [Journal of Open Source Software](https://www.semanticscholar.org/paper/2c9729ed8889e29aaf30678920146489902818f1)
+<article class="publication-entry">
+  <h4>ProgPy: Python Packages for Prognostics and Health Management of Engineering Systems <span>(2023)</span></h4>
+  <p>C. Teubert, K. Jarvis, Matteo Corbetta, Chetan S. Kulkarni, M. Daigle</p>
+  <a href="https://www.semanticscholar.org/paper/2c9729ed8889e29aaf30678920146489902818f1">Journal of Open Source Software</a>
+</article>
 
-**Hybrid physics-informed neural networks for lithium-ion battery modeling and prognosis** (2021)  
-  R. Nascimento, Matteo Corbetta, Chetan S. Kulkarni, F. Viana  
-  [Journal of Power Sources](https://www.semanticscholar.org/paper/df0bfac3688f289e8552962db934d9395b51d87e)
+<article class="publication-entry">
+  <h4>Hybrid physics-informed neural networks for lithium-ion battery modeling and prognosis <span>(2021)</span></h4>
+  <p>R. Nascimento, Matteo Corbetta, Chetan S. Kulkarni, F. Viana</p>
+  <a href="https://www.semanticscholar.org/paper/df0bfac3688f289e8552962db934d9395b51d87e">Journal of Power Sources</a>
+</article>
 
-**Application of sparse identification of nonlinear dynamics for physics-informed learning** (2020)  
-  Matteo Corbetta  
-  [IEEE Aerospace Conference](https://www.semanticscholar.org/paper/71216fa1681378852870cd0fb1b8a6819c6212d5)
+<article class="publication-entry">
+  <h4>Application of sparse identification of nonlinear dynamics for physics-informed learning <span>(2020)</span></h4>
+  <p>Matteo Corbetta</p>
+  <a href="https://www.semanticscholar.org/paper/71216fa1681378852870cd0fb1b8a6819c6212d5">IEEE Aerospace Conference</a>
+</article>
 
-**Comparison of Surrogate Modeling Techniques for Life Cycle Models of Advanced Air Mobility** (2023)  
-  A. Pohya, G. Wende, Matteo Corbetta, Chetan S. Kulkarni  
-  [AIAA AVIATION 2023 Forum](https://www.semanticscholar.org/paper/ffda97d0bce652ce12c4116049ebe260654131c4)
+<article class="publication-entry">
+  <h4>Comparison of Surrogate Modeling Techniques for Life Cycle Models of Advanced Air Mobility <span>(2023)</span></h4>
+  <p>A. Pohya, G. Wende, Matteo Corbetta, Chetan S. Kulkarni</p>
+  <a href="https://www.semanticscholar.org/paper/ffda97d0bce652ce12c4116049ebe260654131c4">AIAA AVIATION 2023 Forum</a>
+</article>
 
-**Particle filtering‐based adaptive training of neural networks for real‐time structural damage diagnosis and prognosis** (2019)  
-  F. Cadini, C. Sbarufatti, Matteo Corbetta, Francesco Cancelliere, M. Giglio  
-  [Structural Control & Health Monitoring](https://www.semanticscholar.org/paper/a23b8e7705d47fbc5877b5fbdd6b9c5d13e56989)
+<article class="publication-entry">
+  <h4>Particle filtering-based adaptive training of neural networks for real-time structural damage diagnosis and prognosis <span>(2019)</span></h4>
+  <p>F. Cadini, C. Sbarufatti, Matteo Corbetta, Francesco Cancelliere, M. Giglio</p>
+  <a href="https://www.semanticscholar.org/paper/a23b8e7705d47fbc5877b5fbdd6b9c5d13e56989">Structural Control &amp; Health Monitoring</a>
+</article>
 
-**Hybrid Modeling of Unmanned Aerial Vehicle Electric Powertrain for Fault Detection and Diagnostics** (2023)  
-  Matteo Corbetta, K. Jarvis, S. Schuet  
-  [AIAA AVIATION 2023 Forum](https://www.semanticscholar.org/paper/6489e5efc946d89974e92de08ebf080ea22e73b8)
+<article class="publication-entry">
+  <h4>Hybrid Modeling of Unmanned Aerial Vehicle Electric Powertrain for Fault Detection and Diagnostics <span>(2023)</span></h4>
+  <p>Matteo Corbetta, K. Jarvis, S. Schuet</p>
+  <a href="https://www.semanticscholar.org/paper/6489e5efc946d89974e92de08ebf080ea22e73b8">AIAA AVIATION 2023 Forum</a>
+</article>
 
-**Systems Health Monitoring: Integrating FMEA into Bayesian Networks** (2021)  
-  Chetan S. Kulkarni, Matteo Corbetta, E. Robinson  
-  [IEEE Aerospace Conference](https://www.semanticscholar.org/paper/bf956074b76b55a50bbdf01999604df2f3388332)
+<article class="publication-entry">
+  <h4>Systems Health Monitoring: Integrating FMEA into Bayesian Networks <span>(2021)</span></h4>
+  <p>Chetan S. Kulkarni, Matteo Corbetta, E. Robinson</p>
+  <a href="https://www.semanticscholar.org/paper/bf956074b76b55a50bbdf01999604df2f3388332">IEEE Aerospace Conference</a>
+</article>
 
-**Uncertainty Quantification of Expected Time-of-Arrival in UAV Flight Trajectory** (2021)  
-  P. Banerjee, Matteo Corbetta  
-  [AIAA AVIATION 2021 FORUM](https://www.semanticscholar.org/paper/c298d8a1a9426876011a0eaef4c8cdd5cc6fa0db)
+<article class="publication-entry">
+  <h4>Uncertainty Quantification of Expected Time-of-Arrival in UAV Flight Trajectory <span>(2021)</span></h4>
+  <p>P. Banerjee, Matteo Corbetta</p>
+  <a href="https://www.semanticscholar.org/paper/c298d8a1a9426876011a0eaef4c8cdd5cc6fa0db">AIAA AVIATION 2021 FORUM</a>
+</article>
 
-**On the performance of a cointegration-based approach for novelty detection in realistic fatigue crack growth scenarios** (2019)  
-  M. Salvetti, C. Sbarufatti, E. Cross, Matteo Corbetta, K. Worden, M. Giglio  
-  [Mechanical systems and signal processing](https://www.semanticscholar.org/paper/332cc36dc003553433ae0a2e3481991f7c7a4b98)
+<article class="publication-entry">
+  <h4>On the performance of a cointegration-based approach for novelty detection in realistic fatigue crack growth scenarios <span>(2019)</span></h4>
+  <p>M. Salvetti, C. Sbarufatti, E. Cross, Matteo Corbetta, K. Worden, M. Giglio</p>
+  <a href="https://www.semanticscholar.org/paper/332cc36dc003553433ae0a2e3481991f7c7a4b98">Mechanical Systems and Signal Processing</a>
+</article>
 
-**Approach for Uncertainty Quantification And Management Of Unmanned Aerial Vehicle Health** (2019)  
-  Matteo Corbetta, Chetan S. Kulkarni  
-  [Annual Conference of the PHM Society](https://www.semanticscholar.org/paper/a38c5b171656509cc02175467e965bc731295ad7)
+<article class="publication-entry">
+  <h4>Approach for Uncertainty Quantification and Management of Unmanned Aerial Vehicle Health <span>(2019)</span></h4>
+  <p>Matteo Corbetta, Chetan S. Kulkarni</p>
+  <a href="https://www.semanticscholar.org/paper/a38c5b171656509cc02175467e965bc731295ad7">Annual Conference of the PHM Society</a>
+</article>
 
-**Enabling in-time prognostics with surrogate modeling through physics-enhanced Dynamic Mode Decomposition method** (2022)  
-  K. Jarvis, Matteo Corbetta, C. Teubert, S. Schuet  
-  [Annual Conference of the PHM Society](https://www.semanticscholar.org/paper/c9e622088bda94d24dcd31687e51d301efc563b4)
+<article class="publication-entry">
+  <h4>Enabling in-time prognostics with surrogate modeling through physics-enhanced Dynamic Mode Decomposition method <span>(2022)</span></h4>
+  <p>K. Jarvis, Matteo Corbetta, C. Teubert, S. Schuet</p>
+  <a href="https://www.semanticscholar.org/paper/c9e622088bda94d24dcd31687e51d301efc563b4">Annual Conference of the PHM Society</a>
+</article>
 
-**Accelerating uncertainty propagation in power laws for prognostics and health management** (2020)  
-  Matteo Corbetta  
-  [IEEE Aerospace Conference](https://www.semanticscholar.org/paper/d9504110479eae052734fdcfc282a75cd08e70ca)
+<article class="publication-entry">
+  <h4>Accelerating uncertainty propagation in power laws for prognostics and health management <span>(2020)</span></h4>
+  <p>Matteo Corbetta</p>
+  <a href="https://www.semanticscholar.org/paper/d9504110479eae052734fdcfc282a75cd08e70ca">IEEE Aerospace Conference</a>
+</article>
 
-**Optimal tuning of particle filtering random noise for monotonic degradation processes** (2016)  
-  Matteo Corbetta, C. Sbarufatti, M. Giglio  
-  [PHM Society European Conference](https://www.semanticscholar.org/paper/1fa6be5d79753df9b600985855bbbd14a300f7aa)
+<article class="publication-entry">
+  <h4>Optimal tuning of particle filtering random noise for monotonic degradation processes <span>(2016)</span></h4>
+  <p>Matteo Corbetta, C. Sbarufatti, M. Giglio</p>
+  <a href="https://www.semanticscholar.org/paper/1fa6be5d79753df9b600985855bbbd14a300f7aa">PHM Society European Conference</a>
+</article>
 
 <!-- PUBLICATIONS_END -->
     </div>
