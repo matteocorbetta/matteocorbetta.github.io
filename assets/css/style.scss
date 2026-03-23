@@ -91,6 +91,24 @@ img {
     linear-gradient(135deg, rgba(255, 251, 247, 0.98), rgba(246, 239, 229, 0.92));
 }
 
+.hero-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(300px, 0.95fr);
+  gap: 1.5rem;
+  align-items: end;
+  margin-top: 1.5rem;
+}
+
+.hero-main {
+  display: grid;
+  gap: 0;
+  align-self: stretch;
+}
+
+.hero-side {
+  align-self: stretch;
+}
+
 .hero::after,
 .section::after {
   content: "";
@@ -120,9 +138,9 @@ img {
 .hero h1,
 .section h2 {
   margin: 0;
-  font-family: "Fraunces", "Iowan Old Style", "Palatino Linotype", serif;
-  letter-spacing: -0.03em;
-  font-weight: 600;
+  font-family: "Manrope", "Avenir Next", "Segoe UI", sans-serif;
+  letter-spacing: -0.045em;
+  font-weight: 800;
 }
 
 .hero h1 {
@@ -134,7 +152,7 @@ img {
 
 .hero-summary {
   max-width: 42rem;
-  margin-top: 1.4rem;
+  margin-top: 0.5rem;
   font-size: 1.12rem;
   color: rgba(32, 28, 23, 0.9);
 }
@@ -255,6 +273,13 @@ img {
   color: var(--muted);
 }
 
+.stack-row-compact {
+  grid-template-columns: 1fr;
+  gap: 0.4rem;
+  margin-top: 1.2rem;
+  padding-top: 1rem;
+}
+
 .accomplishment-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -311,7 +336,9 @@ img {
   margin-bottom: 1.4rem;
   font-size: clamp(1.75rem, 3vw, 2.4rem);
   line-height: 1.05;
-  font-family: "Fraunces", "Iowan Old Style", "Palatino Linotype", serif;
+  font-family: "Manrope", "Avenir Next", "Segoe UI", sans-serif;
+  letter-spacing: -0.045em;
+  font-weight: 800;
 }
 
 .section-publications > p {
@@ -351,6 +378,7 @@ img {
   }
 
   .two-column,
+  .hero-grid,
   .three-column,
   .work-grid,
   .accomplishment-grid {
@@ -383,6 +411,10 @@ img {
 
   .hero-summary {
     font-size: 1rem;
+  }
+
+  .hero-grid {
+    margin-top: 1.1rem;
   }
 
   .contact-row {

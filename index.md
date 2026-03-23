@@ -5,30 +5,20 @@ title: Matteo Corbetta
 
 <main class="resume-page">
   <section class="hero">
-    <p class="eyebrow">Applied ML Scientist</p>
     <h1>Matteo Corbetta, Ph.D.</h1>
-    <p class="hero-summary">
-      Applied ML scientist with 10+ years of experience in probabilistic modeling, sensor-driven systems, and AI for industrial and safety-critical environments.
-    </p>
-    <div class="contact-row">
-      <a href="https://github.com/matteocorbetta">GitHub</a>
-      <a href="https://www.linkedin.com/in/mcorbetta">LinkedIn</a>
-      <a href="https://www.semanticscholar.org/search?q=Matteo%20corbetta&sort=relevance">Semantic Scholar</a>
-    </div>
-  </section>
-
-  <section class="section section-intro">
-    <div class="section-heading">
-      <p class="section-kicker">Profile</p>
-      <h2>About</h2>
-    </div>
-    <div class="two-column">
-      <div class="prose">
-        <p>
-          I build uncertainty-aware machine learning systems for forecasting, anomaly detection, state estimation, and decision support. My work spans fundamental research, technical leadership, and production delivery across startups, large enterprises, and research institutions.
+    <div class="hero-grid">
+      <div class="hero-main">
+        <p class="eyebrow">Applied ML Scientist</p>
+        <p class="hero-summary">
+          10+ years of experience in probabilistic modeling, sensor-driven systems, and AI for industrial and safety-critical environments.
         </p>
+        <div class="contact-row">
+          <a href="https://github.com/matteocorbetta">GitHub</a>
+          <a href="https://www.linkedin.com/in/mcorbetta">LinkedIn</a>
+          <a href="https://www.semanticscholar.org/search?q=Matteo%20corbetta&sort=relevance">Semantic Scholar</a>
+        </div>
       </div>
-      <div class="surface-card">
+      <div class="surface-card hero-side">
         <h3>Focus Areas</h3>
         <ul class="focus-list">
           <li>Time-series anomaly detection, state estimation, and sensor fusion.</li>
@@ -36,11 +26,11 @@ title: Matteo Corbetta
           <li>End-to-end delivery from low-TRL research to production-grade C++ and cloud deployments.</li>
           <li>Open-source research software, proposal leadership, and cross-functional ML execution.</li>
         </ul>
+        <div class="stack-row stack-row-compact">
+          <span class="stack-label">Tech stack</span>
+          <p>Python, PyTorch, Scikit-Learn, JAX, TensorFlow, Ray, Pandas, SQL, C++, Docker, AWS, GCP, Kubernetes, LangChain.</p>
+        </div>
       </div>
-    </div>
-    <div class="stack-row">
-      <span class="stack-label">Tech stack</span>
-      <p>Python, PyTorch, Scikit-Learn, JAX, TensorFlow, Ray, Pandas, SQL, C++, Docker, AWS, GCP, Kubernetes, LangChain.</p>
     </div>
   </section>
 
@@ -131,8 +121,11 @@ title: Matteo Corbetta
   </section>
 
   <section class="section section-publications" markdown="1">
+    <div class="section-heading">
+      <p class="section-kicker">Selected Work</p>
+      <h2>Selected Publications</h2>
+    </div>
 <!-- PUBLICATIONS_START -->
-## Selected Publications
 
 **ProgPy: Python Packages for Prognostics and Health Management of Engineering Systems** (2023)  
   C. Teubert, K. Jarvis, Matteo Corbetta, Chetan S. Kulkarni, M. Daigle  
