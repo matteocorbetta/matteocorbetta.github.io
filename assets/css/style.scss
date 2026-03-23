@@ -91,24 +91,6 @@ img {
     linear-gradient(135deg, rgba(255, 251, 247, 0.98), rgba(246, 239, 229, 0.92));
 }
 
-.hero-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1.45fr) minmax(300px, 0.95fr);
-  gap: 1.5rem;
-  align-items: end;
-  margin-top: 1.5rem;
-}
-
-.hero-main {
-  display: grid;
-  gap: 0;
-  align-self: stretch;
-}
-
-.hero-side {
-  align-self: stretch;
-}
-
 .hero::after,
 .section::after {
   content: "";
@@ -145,7 +127,7 @@ img {
 
 .hero h1 {
   max-width: 10ch;
-  margin-top: 0.55rem;
+  margin-top: 0.35rem;
   font-size: clamp(3.2rem, 7vw, 5.4rem);
   line-height: 0.94;
 }
@@ -161,19 +143,21 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
-  margin-top: 1.75rem;
+  margin-top: 1.35rem;
 }
 
 .contact-row a {
   display: inline-flex;
   align-items: center;
-  min-height: 2.75rem;
-  padding: 0 1rem;
+  justify-content: center;
+  min-height: 2.5rem;
+  padding: 0.7rem 1rem;
   border: 1px solid rgba(48, 92, 120, 0.16);
   border-radius: var(--radius-sm);
   background: rgba(255, 252, 247, 0.82);
   color: var(--text);
   font-weight: 600;
+  white-space: nowrap;
 }
 
 .contact-row a:hover {
@@ -273,13 +257,6 @@ img {
   color: var(--muted);
 }
 
-.stack-row-compact {
-  grid-template-columns: 1fr;
-  gap: 0.4rem;
-  margin-top: 1.2rem;
-  padding-top: 1rem;
-}
-
 .accomplishment-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -332,7 +309,7 @@ img {
   padding-top: 38px;
 }
 
-.section-publications > h2 {
+.section-publications .publication-list > h2 {
   margin-bottom: 1.4rem;
   font-size: clamp(1.75rem, 3vw, 2.4rem);
   line-height: 1.05;
@@ -341,14 +318,14 @@ img {
   font-weight: 800;
 }
 
-.section-publications > p {
+.section-publications .publication-list > p {
   margin-bottom: 1.1rem;
   padding: 0 0 1.05rem;
   border-bottom: 1px solid rgba(99, 84, 66, 0.1);
   color: rgba(32, 28, 23, 0.9);
 }
 
-.section-publications > p:last-of-type {
+.section-publications .publication-list > p:last-of-type {
   margin-bottom: 0;
   padding-bottom: 0;
   border-bottom: 0;
@@ -378,7 +355,6 @@ img {
   }
 
   .two-column,
-  .hero-grid,
   .three-column,
   .work-grid,
   .accomplishment-grid {
@@ -413,17 +389,12 @@ img {
     font-size: 1rem;
   }
 
-  .hero-grid {
-    margin-top: 1.1rem;
-  }
-
   .contact-row {
     gap: 0.6rem;
   }
 
   .contact-row a {
-    width: 100%;
-    justify-content: center;
+    width: auto;
   }
 
   .stack-row {
