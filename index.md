@@ -96,9 +96,9 @@ title: Matteo Corbetta
   <section class="section">
     <div class="section-heading">
       <p class="section-kicker">Selected Work</p>
-      <h2>Selected Work</h2>
+      <h2>Samples</h2>
     </div>
-    <h3 class="subsection-title">Sample Work</h3>
+    <!-- <h3 class="subsection-title">Sample Work</h3> -->
     <div class="work-grid">
       <a class="work-card" href="https://github.com/nasa/progpy">
         <span class="work-type">Open source</span>
@@ -121,7 +121,7 @@ title: Matteo Corbetta
         <span>Applied modeling work on fluid state estimation and sensing in aerospace contexts.</span>
       </a>
     </div>
-    <h3 class="subsection-title subsection-title-publications">Selected Publications</h3>
+    <!-- <h3 class="subsection-title subsection-title-publications">Selected Publications</h3> -->
     <div class="publication-list">
 <!-- PUBLICATIONS_START -->
 
