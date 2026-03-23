@@ -1,15 +1,15 @@
-name: Update Publications
+name: Deploy Site
 
 on:
-  workflow_dispatch:
-  schedule:
-    - cron: "0 3 1 * *"
   push:
-    paths:
+    branches:
+      - main
+    paths-ignore:
       - "paper_ids.txt"
+  workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
   pages: write
   id-token: write
 
@@ -18,25 +18,12 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  update-publications:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
-      - name: Install dependencies
-        run: pip install requests
-
-      - name: Generate publication list
-        run: python scripts/fetch_papers.py
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
@@ -49,15 +36,6 @@ jobs:
 
       - name: Build site
         run: bundle exec jekyll build --destination ./_site
-
-      - name: Commit publication updates
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add index.md
-          git diff --cached --quiet && exit 0
-          git commit -m "Update publications"
-          git push
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

@@ -1,65 +1,136 @@
 ---
 layout: default
+title: Matteo Corbetta
 ---
 
-# Matteo Corbetta, Ph.D.
+<main class="resume-page">
+  <section class="hero">
+    <p class="eyebrow">Applied ML Scientist</p>
+    <h1>Matteo Corbetta, Ph.D.</h1>
+    <p class="hero-summary">
+      Applied ML scientist with 10+ years of experience in probabilistic modeling, sensor-driven systems, and AI for industrial and safety-critical environments.
+    </p>
+    <div class="contact-row">
+      <a href="https://github.com/matteocorbetta">GitHub</a>
+      <a href="https://www.linkedin.com/in/mcorbetta">LinkedIn</a>
+      <a href="https://www.semanticscholar.org/search?q=Matteo%20corbetta&sort=relevance">Semantic Scholar</a>
+    </div>
+  </section>
 
-[GitHub](https://github.com/matteocorbetta) | [LinkedIn](https://www.linkedin.com/in/mcorbetta) | [Semantic Scholar](https://www.semanticscholar.org/search?q=Matteo%20corbetta&sort=relevance) 
+  <section class="section section-intro">
+    <div class="section-heading">
+      <p class="section-kicker">Profile</p>
+      <h2>About</h2>
+    </div>
+    <div class="two-column">
+      <div class="prose">
+        <p>
+          I build uncertainty-aware machine learning systems for forecasting, anomaly detection, state estimation, and decision support. My work spans fundamental research, technical leadership, and production delivery across startups, large enterprises, and research institutions.
+        </p>
+      </div>
+      <div class="surface-card">
+        <h3>Focus Areas</h3>
+        <ul class="focus-list">
+          <li>Time-series anomaly detection, state estimation, and sensor fusion.</li>
+          <li>Forecasting and uncertainty-aware decision making for high-stakes systems.</li>
+          <li>End-to-end delivery from low-TRL research to production-grade C++ and cloud deployments.</li>
+          <li>Open-source research software, proposal leadership, and cross-functional ML execution.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="stack-row">
+      <span class="stack-label">Tech stack</span>
+      <p>Python, PyTorch, Scikit-Learn, JAX, TensorFlow, Ray, Pandas, SQL, C++, Docker, AWS, GCP, Kubernetes, LangChain.</p>
+    </div>
+  </section>
 
-## About
+  <section class="section">
+    <div class="section-heading">
+      <p class="section-kicker">Track Record</p>
+      <h2>Selected Accomplishments</h2>
+    </div>
+    <div class="accomplishment-grid">
+      <article class="surface-card">
+        <h3>Business Outcomes</h3>
+        <ul>
+          <li>Increased reach of an automotive wheel alignment monitoring system to more than 250,000 additional potential customers.</li>
+          <li>Led a team of 3 building a multi-agent workflow that enabled onboarding of a new customer for a Series A GenAI startup.</li>
+          <li>Designed, implemented, and deployed an AI-based root cause analysis workflow for cloud FinOps cost spikes.</li>
+        </ul>
+      </article>
+      <article class="surface-card">
+        <h3>Awards and Recognition</h3>
+        <ul>
+          <li>Core algorithms contributor to NASA’s 2024 Software of the Year: ProgPy.</li>
+          <li>OneKBR Award for outstanding work in NASA’s Diagnostics and Prognostics Task, 2023.</li>
+          <li>Outstanding Reviewer for the Prognostics and Health Management Society, 2018.</li>
+          <li>Best paper award at the European Prognostics and Health Management Conference, Bilbao, 2016.</li>
+          <li>Third-place best paper at ESREL, Amsterdam, 2013.</li>
+        </ul>
+      </article>
+    </div>
+    <article class="surface-card section-block">
+      <h3>Scientific and Technical Contributions</h3>
+      <div class="three-column">
+        <div>
+          <h4>Awarded Project Proposals</h4>
+          <ul>
+            <li>“Physics-aware quantum neural network modeling of Earth science phenomena”, NASA Ames AIST 2024.</li>
+            <li>“Acoustic Data-Based 0-gravity Boiling Characterization”, NASA Ames CIF 2023.</li>
+            <li>“Physics-Informed Neural Networks for Next-Gen Electric Aircraft”, NASA Ames CIF 2022.</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Conferences and Societies</h4>
+          <ul>
+            <li>Panelist at SuperComputing 2022: “Physics-Informed Machine Learning meets High Performance Computing”.</li>
+            <li>Member of the Editorial Board for the Prognostics and Health Management Society, 2017 to 2024.</li>
+            <li>Presented technical work at more than a dozen conferences and workshops.</li>
+            <li>Reviewer for scientific journals and conferences for more than a decade.</li>
+          </ul>
+        </div>
+        <div>
+          <h4>Invention Disclosures and Patents</h4>
+          <ul>
+            <li>Coolant Pump and Valve Prognostic Strategy, Ford Motor Company, 2024.</li>
+            <li>Bayesian network for fault isolation of UAV electrical powertrain, KBR and NASA, 2022.</li>
+            <li>Vibration-based monitoring of wind turbine direct-drive generators, Siemens Gamesa, 2017.</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+  </section>
 
-**Applied ML Scientist** with 10+ years of experience in data science and probabilistic modeling, ML, and AI for sensor-driven systems across industrial and safety-critical domains. 
-- Expertise in time-series anomaly detection, state estimation & sensor fusion, and forecasting for uncertainty-aware decision making
-- Experience building models from low-TRL (fundamental research) to deploying C++ into production-grade environments
-- Hands-on ML technical lead and individual contributor in research labs, large enterprises, and early-stage startups
-- Core contributor to open-source research software, PI of funded research proposals at NASA, and recipient of multiple awards
+  <section class="section">
+    <div class="section-heading">
+      <p class="section-kicker">Selected Work</p>
+      <h2>Sample Work</h2>
+    </div>
+    <div class="work-grid">
+      <a class="work-card" href="https://github.com/nasa/progpy">
+        <span class="work-type">Open source</span>
+        <strong>ProgPy</strong>
+        <span>NASA prognostics and health management software.</span>
+      </a>
+      <a class="work-card" href="https://www.nature.com/articles/s41598-023-33018-0">
+        <span class="work-type">Publication</span>
+        <strong>Battery Hybrid PIML</strong>
+        <span>Hybrid physics-informed neural networks for lithium-ion battery modeling and prognosis.</span>
+      </a>
+      <a class="work-card" href="https://ntrs.nasa.gov/api/citations/20210013485/downloads/Towards_The_True_Hybrid_ENHANCE_2021.pdf">
+        <span class="work-type">Presentation</span>
+        <strong>PIML for Prognostics and Health Management</strong>
+        <span>NASA presentation on hybrid physics-informed approaches for PHM applications.</span>
+      </a>
+      <a class="work-card" href="https://ntrs.nasa.gov/api/citations/20220013273/downloads/SMG_final.pdf">
+        <span class="work-type">Technical report</span>
+        <strong>Spectral Mass Gauging</strong>
+        <span>Applied modeling work on fluid state estimation and sensing in aerospace contexts.</span>
+      </a>
+    </div>
+  </section>
 
-**Tech stack**: \
-Python: PyTorch, Scikit-Learn, JAX, TensorFlow, Ray, Pandas, LangChain | SQL | C++ | Docker | AWS, GCP, Kubernetes.
-
-## Selected Accomplishments
-
-### Business Outcomes
-- Increased reach of automotive wheel alignment monitoring system to more than 250,000 additional potential customers
-- Led a team of 3 building a multi-agent workflow that enabled the onboarding of a new customer for GenAI, Series A startup
-- Designed, implemented and deployed an AI-based root cause analysis of cost spikes for Cloud FinOps customer
-
-### Awards and Recognitions
-- Core algorithms contributor to NASA’s 2024 Software of the Year: ProgPy, 2024
-- OneKBR Award for outstanding work in the NASA’s Diagnostics and Prognostics Task, 2023
-- Outstanding Reviewer for the Prognostics and Health Management Society, 2018
-- Best paper award at European Prognostics and Health Management Conference, Bilbao, Spain 2016 (link)
-- Best paper (3rd) at European Safety and Reliability Conference, Amsterdam, The Netherlands, 2013
-
-### Scientific and Technical Contributions
-
-#### Awarded Project Proposals (PI or Co-PI)
-- “Physics-aware quantum neural network modeling of Earth science phenomena”, NASA Ames AIST 2024
-- “Acoustic Data-Based 0-gravity Boiling Characterization”, NASA Ames CIF 2023
-- “Physics-Informed Neural Networks for Next-Gen Electric Aircraft”, NASA Ames CIF 2022
-
-#### Conferences and Technical Societies
-- Panelist at the SuperComputing Conf. 2022: "Physics-Informed Machine Learning meets High Performance Computing"
-- Member of the Editorial Board for the Prognostic and Health Management Society 2017 - 2024
-- Presented technical work at more than a dozen conferences and workshops.
-- Reviewer for a number of scientific journals and conferences for more than a decade
-
-#### Invention Disclosures and Patents
-- Coolant Pump and Valve Prognostic Strategy (Ford Motor Company), 2024 (invention disclosure submitted)
-- Bayesian network for fault isolation of UAV electrical powertrain (KBR & NASA), 2022 (patent pending)
-- Vibration-based monitoring of wind turbine direct-drive generators (Siemens Gamesa), 2017 (invention disclosure)
-
-
-## Sample Work
-
-[ProgPy](https://github.com/nasa/progpy)
-
-[Battery Hybrid PIML](https://www.nature.com/articles/s41598-023-33018-0)
-
-[Presentation: PIML for Prognostics and Health Management](https://ntrs.nasa.gov/api/citations/20210013485/downloads/Towards_The_True_Hybrid_ENHANCE_2021.pdf)
-
-[Spectral Mass Gauging](https://ntrs.nasa.gov/api/citations/20220013273/downloads/SMG_final.pdf)
-
+  <section class="section section-publications" markdown="1">
 <!-- PUBLICATIONS_START -->
 ## Selected Publications
 
@@ -116,3 +187,5 @@ Python: PyTorch, Scikit-Learn, JAX, TensorFlow, Ray, Pandas, LangChain | SQL | C
   [PHM Society European Conference](https://www.semanticscholar.org/paper/1fa6be5d79753df9b600985855bbbd14a300f7aa)
 
 <!-- PUBLICATIONS_END -->
+  </section>
+</main>
