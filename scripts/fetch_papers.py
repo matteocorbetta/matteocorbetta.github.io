@@ -9,6 +9,17 @@ FIELDS = "title,authors,year,venue,url,externalIds"
 START = "<!-- PUBLICATIONS_START -->"
 END = "<!-- PUBLICATIONS_END -->"
 
+# Entries without a DOI / Semantic Scholar ID (e.g. software), listed first.
+MANUAL_ENTRIES = [
+    {
+        "title": "Lagrangian FiLM NN: A JAX Implementation of a FiLM-Conditioned Lagrangian Neural Network for Double Pendula",
+        "year": 2026,
+        "authors": [{"name": "Matteo Corbetta"}],
+        "url": "https://github.com/matteocorbetta/lagrangian-film-nn",
+        "venue": "GitHub",
+    },
+]
+
 
 def update_publications_section(new_md):
     text = Path("index.html").read_text()
@@ -66,7 +77,7 @@ def format_entry(data):
 
 def main():
     ids = Path("paper_ids.txt").read_text().strip().splitlines()
-    entries = []
+    entries = [format_entry(e) for e in MANUAL_ENTRIES]
 
     for pid in ids:
         # Try Semantic Scholar first
